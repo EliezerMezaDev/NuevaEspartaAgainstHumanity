@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./styles/app.scss";
 
 import { getRandomQuestions, getRandomAnswers } from "./utils/functions";
-import { FaArrowAltCircleRight, FaArrowRight, FaSyncAlt } from "react-icons/fa";
+import { FaSyncAlt } from "react-icons/fa";
 
 function App() {
   const [inQuestion, setInQuestion] = useState<Boolean>(true);

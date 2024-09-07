@@ -132,7 +132,7 @@ input {
     height: 500px;
     margin: 40px;
 
-    @include phoneSize{
+    @include phoneSize {
       margin-top: -20px;
     }
 
